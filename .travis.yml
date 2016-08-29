@@ -1,6 +1,7 @@
 language: c
 script: bash -e .travis-ci.sh
 sudo: required
+dist: trusty
 os:
 - linux
 env:
