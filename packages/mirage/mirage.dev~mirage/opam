@@ -22,7 +22,7 @@ remove: [
 ]
 depends: [
   "mirage-types-lwt"
-  "mirage-types" {>= "2.9.0"}
+  "mirage-types" {>= "dev~mirage"}
   "ipaddr"       {>= "2.6.1"}
   "functoria"    {>= "1.1.0"}
   "astring"
@@ -33,5 +33,6 @@ conflicts: [
   "cstruct"  {< "1.0.1"}
   "io-page"  {< "1.4.0"}
   "crunch"   {< "1.2.2"}
+  "tcpip"    {< "dev~mirage"}
 ]
 available: [ocaml-version >= "4.02.3"]

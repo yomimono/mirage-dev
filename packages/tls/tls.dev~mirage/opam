@@ -36,7 +36,8 @@ depopts: [
 ]
 conflicts: [
   "lwt" {<"2.4.8"}
-  "mirage-types-lwt" {<"2.3.0"}
+  "mirage" {<"dev~mirage"}
+  "mirage-types-lwt" {<"dev~mirage"}
   "mirage-net-xen" {<"1.3.0"}
 ]
 

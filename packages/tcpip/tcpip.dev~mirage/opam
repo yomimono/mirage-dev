@@ -45,8 +45,8 @@ depends: [
   "rresult"
   "cstruct" {>= "2.1.0"}
   "ppx_tools"
-  "mirage-types" {>= "2.8.0"}
-  "mirage-clock-unix" {>= "1.0.0"}
+  "mirage-types" {>= "dev~mirage"}
+  "mirage-clock-unix" {>= "dev~mirage"}
   "ipaddr" {>= "2.2.0"}
   "mirage-profile" {>= "0.5"}
   "duration"

@@ -12,15 +12,14 @@ build: [
   ["sh" "build.sh"]
 ]
 depends: [
-  "ocamlfind"
-  {build}
+  "ocamlfind" {build}
   "ppx_sexp_conv"
   "ppx_type_conv"
   "cstruct"
   "sexplib"
   "menhir"
   "ipaddr"
-  "tcpip"
+  "tcpip" {>= "dev~mirage" }
   "result"
   "rresult"
 ]
