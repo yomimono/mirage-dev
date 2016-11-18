@@ -7,7 +7,7 @@ opam repo add mirage-dev .
 opam update -u
 opam install mirage
 
-git clone -b mirage-dev git://github.com/mirage/mirage-skeleton
+git clone -b higherlevel-error git://github.com/yomimono/mirage-skeleton
 cd mirage-skeleton
 make MODE=${MODE}
 
