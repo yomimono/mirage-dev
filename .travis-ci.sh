@@ -7,7 +7,7 @@ opam repo add mirage-dev .
 opam update -u
 opam install mirage crunch fat-filesystem
 
-git clone -b mirage-dev git://github.com/mirage/mirage-skeleton
+git clone -b block-errors git://github.com/yomimono/mirage-skeleton
 cd mirage-skeleton
 make MODE=${MODE}
 
